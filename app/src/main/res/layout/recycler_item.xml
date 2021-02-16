@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="70sp">
+        <TextView
+            android:id="@+id/resultRecycle"
+            android:textSize="25dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:id="@+id/exampleRecycle"
+            android:textSize="19dp"
+            android:textColor="#6e6e6e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  />
+    </LinearLayout>
+</LinearLayout>
